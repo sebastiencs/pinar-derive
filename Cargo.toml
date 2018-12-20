@@ -3,6 +3,8 @@ name = "pinar-derive"
 version = "0.1.0"
 authors = ["Sebastien Chapuis <sebastien@chapu.is>"]
 edition = "2018"
+description = "macro derives for pinar"
+license = "MIT"
 
 [lib]
 proc-macro = true
