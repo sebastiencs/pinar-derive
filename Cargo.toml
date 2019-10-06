@@ -1,6 +1,6 @@
 [package]
 name = "pinar-derive"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Sebastien Chapuis <sebastien@chapu.is>"]
 edition = "2018"
 description = "macro derives for pinar"
@@ -10,5 +10,5 @@ license = "MIT"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1.0.5", features = ["full", "extra-traits", "clone-impls", "visit"] }
+syn = { version = "1.0.5", features = ["full", "extra-traits", "clone-impls", "visit", "visit-mut", "derive"] }
 quote = "1.0"
